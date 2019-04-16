@@ -1,0 +1,378 @@
+html,
+body,
+div,
+img,
+a,
+section,
+blockquote,
+cite,
+nav,
+footer,
+main,
+h1,
+h2,
+h3,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font: 10px 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.active {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body img {
+  max-width: 100%;
+}
+
+body .jumbotron {
+  padding: 0;
+  background: #222 url("./images/Layer12.jpeg") no-repeat 50% top;
+  margin-bottom: 0;
+}
+
+body .jumbotron .container {
+  height: 640px;
+}
+
+body .jumbotron #browser {
+  margin-top: 26px;
+}
+
+body .jumbotron .navbar {
+  padding: 0;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body .jumbotron .btn-danger {
+  width: 130px;
+  height: 44px;
+  background: #fb2f3a;
+  border: none;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+body .jumbotron .btn-danger:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .jumbotron .jumbotron-inner a {
+  font-size: 1.6rem;
+}
+
+body .jumbotron .jumbotron-inner .learn {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 17px;
+  font-weight: bold;
+}
+
+body .jumbotron .jumbotron-inner h1 {
+  color: #fff;
+  font-size: 4.8rem;
+  margin-top: 45px;
+}
+
+body .jumbotron .jumbotron-inner h4 {
+  color: #ccc;
+  font-size: 1.8rem;
+  margin-top: 28px;
+  margin-bottom: 36px;
+}
+
+body .navbar-nav li {
+  border-radius: 5px;
+}
+
+body .navbar-nav li a {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 12px 22px !important;
+  border-radius: 3px;
+}
+
+body .navbar-nav li a:focus {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body .navbar-nav li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body main #process {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+  -webkit-box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 10;
+  padding: 60px 0;
+}
+
+body main #process .h-line {
+  background: url(./images/line.jpg) repeat-x !important;
+  border-radius: 3px;
+  position: relative;
+  top: 60px;
+}
+
+body main #process .btn-light:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body main #process p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #7d7d7d;
+}
+
+body main #process a.btn {
+  margin-top: 40px;
+  background-color: #9a9c9f;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 90px;
+  height: 35px;
+  padding-top: 6px;
+  border: 1px solid #7b7d7f;
+}
+
+body main #process .heading {
+  margin-bottom: 30px !important;
+}
+
+body main #process h2 {
+  margin-top: 30px;
+}
+
+body main #process .process-icon {
+  margin-bottom: 15px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: transparent url("./images/sprite.png") no-repeat;
+  background-position: left top;
+}
+
+body main #process .process-icon.icon-design {
+  background-position: -100px top;
+}
+
+body main #process .process-icon.icon-develop {
+  background-position: -200px top;
+}
+
+body main #process .process-icon.icon-launch {
+  background-position: -300px top;
+}
+
+body main #portfolio {
+  margin-top: 60px;
+}
+
+body main #portfolio .img-thumbnail:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body main #portfolio .title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+body main #portfolio .category {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #999;
+  margin-top: 10px !important;
+}
+
+body main #portfolio p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #7d7d7d;
+  margin-top: 30px;
+}
+
+body main #portfolio #our-portfolio {
+  color: #fb2f3a;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+body main #partners {
+  margin-top: 120px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 60px;
+}
+
+body main #widgets {
+  margin-top: 60px;
+  border-bottom: 1px solid #ccc;
+}
+
+body main #widgets h4 {
+  margin-bottom: 30px;
+}
+
+body main #widgets blockquote cite {
+  margin-left: 90px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+body main #widgets blockquote a {
+  display: block;
+  width: 100px;
+  margin-left: 90px;
+  font-size: 1.2rem;
+  color: #fb2f3a;
+}
+
+body main #widgets blockquote p {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #7d7d7d;
+  overflow: hidden;
+  width: 225px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+body main #widgets .blog ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+body main #widgets .blog ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+body main #widgets .blog ul li:last-child {
+  border-bottom: 0;
+}
+
+body main #widgets .blog ul li small {
+  font-size: 1.2rem;
+  color: #b0b0b0;
+}
+
+body main #widgets .blog ul li small a {
+  color: #fb2f3a;
+}
+
+body main #widgets .blog ul li h5 a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+body main #widgets .tweets .tweets-lists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body main #widgets .tweets .tweets-lists li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+body main #widgets .tweets .tweets-lists li img {
+  margin-right: 20px;
+}
+
+body main #widgets .tweets .tweets-lists li:last-child {
+  border-bottom: 0;
+}
+
+body main #widgets .tweets .tweets-lists li p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ddd;
+}
+
+body main #widgets .tweets .tweets-lists li p a {
+  color: #fb2f3a;
+}
+
+body main #widgets .tweets .tweets-lists li:first-child {
+  padding-top: 0;
+}
+
+body .footer-links {
+  list-style: none;
+}
+
+body .footer-links li {
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+body .footer-links li a {
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body .social-buttons {
+  margin-top: 40px;
+}
+
+body .twitter {
+  margin-right: 1.2rem;
+  background-color: #569ccd;
+  width: 165px;
+  height: 33px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body .facebook {
+  background-color: #2272a9;
+  width: 165px;
+  height: 33px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body .social-sprite {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background: transparent url("./images/social.png") no-repeat;
+  vertical-align: middle;
+}
+
+body .social-sprite.facebook {
+  background-position: -16px top;
+}
+
+body #copyright {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 280px;
+}
+
+body #copyright a {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #333;
+}
+/*# sourceMappingURL=styles.css.map */
